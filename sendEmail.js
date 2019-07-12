@@ -8,7 +8,7 @@ function sendEmail(sender, receiver, message){
     to: receiver,
     from: sender,
     subject: message,
-    html: " <img src='./psllogo_navbar.jpeg' align='center'> <strong> Hello bro, you gonna have fun in the interview. - Pablo Villegas PSL XD</strong>"
+    html: " <img src='./psllogo_navbar.jpeg' align='center'> <strong> haha Hello bro, you gonna have fun in the interview. - Pablo Villegas PSL XD</strong>"
   };
 
   sendGrid.send(msg).then(data => console.log(data));
